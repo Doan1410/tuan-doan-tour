@@ -1,0 +1,683 @@
+<!-- =========
+
+	Template Name: Play
+	Author: UIdeck
+	Author URI: https://uideck.com/
+	Support: https://uideck.com/support/
+	Version: 1.1
+
+========== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết Tour</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/logo/logo-8.png" type="image/png" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <!-- Đã chuyển style .option-btn-card-1 vào ud-styles.css -->
+</head>
+
+<body>
+    <!-- ====== Header Start ====== -->
+    <header class="ud-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo/logo-5.png" alt="Logo" />
+                        </a>
+                        <button class="navbar-toggler">
+                            <span class="toggler-icon"> </span>
+                            <span class="toggler-icon"> </span>
+                            <span class="toggler-icon"> </span>
+                        </button>
+
+                        <div class="navbar-collapse">
+                            <ul id="nav" class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="index.html">Trang chủ </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="#about">Thông tin</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="pricing.html">Giá Tour</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="#team">Hướng dẫn viên</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="#contact">Liên hệ</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="navbar-btn d-none d-sm-inline-block">
+                            <a href="#" class="ud-main-btn ud-login-btn js-logout-btn" style="display:none;">Đăng
+                                xuất</a>
+                            <a href="login.html" class="ud-main-btn ud-login-btn js-auth-btn">
+                                Đăng nhập
+                            </a>
+                            <a href="signup.html" class="ud-main-btn ud-login-btn js-auth-btn">
+                                Đăng kí
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ====== Header End ====== -->
+
+    <!-- ====== Banner Start ====== -->
+    <!-- <section class="ud-page-banner>
+    <div class="container>
+      <div class="row>
+        <div class="col-lg-12>
+          <div class="ud-banner-content>
+            <h1>Pricing Page</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+    <!-- ====== Banner End ====== -->
+
+    <!-- ====== Pricing Start ====== -->
+    <section id="pricing-1" class="ud-pricing-1">
+
+    </section>
+    <!-- ====== Pricing End ====== -->
+
+    <!-- ====== FAQ Start ====== -->
+    <section id="faq-card-1" class="ud-card-1">
+        <div class="container my-4 custom-container">
+            <div class="row g-0">
+                <!-- Large Image on the Left -->
+                <div class="col-md-8">
+                    <div class="img-card-1 h-100">
+                        <img id="main-image" src="" class="img-fluid h-100 no-radius" alt="Large Image"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+
+                <!-- Two Smaller Images on the Right -->
+                <div class="col-md-4">
+                    <div class="d-flex flex-column h-100 gap-0">
+                        <!-- Small Image 1 -->
+                        <div class="img-card-2 flex-fill">
+                            <img id="sub-image-1" src="" class="img-fluid h-100 no-radius" alt="Small Image 1"
+                                style="object-fit: cover;">
+                        </div>
+                        <!-- Small Image 2 -->
+                        <div class="img-card-3 flex-fill">
+                            <img id="sub-image-2" src="" class="img-fluid h-100 no-radius" alt="Small Image 2"
+                                style="object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4 custom-container">
+            <div class="row g-0">
+                <!-- Large Image on the Left -->
+                <div class="col-md-9">
+                    <div class="img-card-1 h-100">
+                        <div class="card-pricing-info h-100" id="tour-description">
+                            <!-- Nội dung mô tả sẽ được render động từ data.json -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Two Smaller Images on the Right -->
+                <div class="col-md-4">
+                    <div class="d-flex flex-column h-100 gap-0">
+                        <!-- Small Image 1 -->
+                        <div class="img-card-2 flex-fill">
+                        </div>
+                        <!-- Small Image 2 -->
+                        <div class="img-card-3 flex-fill">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4 custom-container-card-1">
+            <div class="row g-0">
+                <!-- Main content in a single column -->
+                <div class="col-md-9">
+                    <div class="service-card-info">
+                        <h2>Vui lòng chọn ngày & gói dịch vụ</h2>
+                        <div class="mb-3">
+                            <p>Xin chọn ngày tham quan</p>
+                            <input type="text" class="form-control date-picker-card-1" placeholder="Chọn ngày" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <p>Loại dịch vụ</p>
+                            <div class="d-flex flex-row gap-2">
+                                <button class="btn option-btn-card-1 mb-2 btn-book-now active"
+                                    style="width: 150px;">Thường
+                                </button>
+                                <button class="btn option-btn-card-1 mb-2" style="width: 150px;">Cao cấp</button>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>Số lượng</p>
+                            <div class="input-group" style="max-width:180px;">
+                                <span class="input-group-text">Người lớn</span>
+                                <input type="number" class="form-control quantity-input-card-1" value="1" min="1">
+                            </div>
+                        </div>
+                        <div class="price mb-3">
+                            <span id="price-value"></span>
+                        </div>
+                        <div class="mb-3">
+                            <p class="price-text-card-1">Vui lòng hoàn tất các mục yêu cầu để chuyến đi được thực hiện
+                                theo</p>
+                        </div>
+                        <div class="select-button ">
+                            <button class="btn-book-now" onclick="bookNow()">Đặt ngay</button>
+                        </div>
+                        <div class="booking-date mt-3">
+                            <span class="clear-all-card-1" onclick="clearAll()">Xóa tất cả</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4 custom-container-confirm" style="padding-left:0;">
+            <div class="row">
+                <div class="col-md-9" style="margin-left:0;">
+                    <div class="card p-4 mb-4" style="border-radius:14px;box-shadow:none;border:none;">
+                        <div class="mb-3" style="font-size:20px;font-weight:600;color:#e11d48;">Những điều cần lưu ý
+                        </div>
+                        <h4 class="mb-3" style="color:#2563eb;font-weight:700;">Xác nhận</h4>
+                        <p class="mb-2">Xác nhận ngay tức thời. Nếu bạn không nhận được email xác nhận đơn hàng, hãy
+                            liên hệ với chúng tôi</p>
+                        <h5 class="mt-4 mb-2" style="color:#2563eb;font-weight:600;">Điều kiện</h5>
+                        <ul class="mb-2 ps-3">
+                            <li>Trẻ em từ 2+ tuổi sẽ được tính phí như người lớn</li>
+                            <li>Trẻ em dưới 2 tuổi được miễn phí nhưng phải đi cùng ít nhất một người lớn. Nếu bạn có
+                                trẻ em dưới 2 tuổi đi kèm, vui lòng cung cấp họ tên đầy đủ, quốc tịch và năm sinh tại
+                                trang thanh toán</li>
+                        </ul>
+                        <h5 class="mt-4 mb-2" style="color:#2563eb;font-weight:600;">Thông tin thêm</h5>
+                        <ul class="mb-2 ps-3">
+                            <li>Chú ý: Tuan Doan và nhà cung cấp dịch vụ sẽ không chịu trách nhiệm cho những vấn đề liên
+                                quan đến VISA của quý khách. Dịch vụ đón tiễn ưu tiên không bao gồm dịch vụ VISA</li>
+                            <li>Not available from 01:30 AM to 05:30 AM everyday.</li>
+                        </ul>
+                        <div class="mt-3"><b>Support Hotline:</b> <a href="tel:+84866624188"
+                                style="color:#e11d48;text-decoration:none;">+84866624188</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4 custom-container-service-info">
+            <div class="row">
+                <div class="col-md-9">
+                    <h4 class="mb-3" style="color:#2563eb;font-weight:700;">Về dịch vụ này</h4>
+                    <div id="service-description" class="mb-4"></div>
+                    <div class="d-flex flex-column align-items-start gap-3 mb-3" id="service-images"
+                        style="height:20\200px;width:1000px;">
+                        <img id="service-img-main" src="" alt="Ảnh dịch vụ chính" class="img-fluid rounded"
+                            style="height:800px;width:1000px;object-fit:cover;">
+                        <img id="service-img-1" src="" alt="Ảnh dịch vụ 1" class="img-fluid rounded"
+                            style="height:800px;width:1000px;object-fit:cover;">
+                        <img id="service-img-2" src="" alt="Ảnh dịch vụ 2" class="img-fluid rounded"
+                            style="height:800px;width:1000px;object-fit:cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- ====== Các hoạt động nổi bật Start ====== -->
+    <div class="container my-5">
+        <h2 class="mb-4" style="font-size:2.2rem;font-weight:700;">Các hoạt động nổi bật</h2>
+        <div class="row" id="top-activities-row"></div>
+        <div class="d-flex justify-content-center mt-4">
+            <button class="btn btn-outline-dark px-5 py-2" style="border-radius:12px;font-weight:500;">Xem thêm</button>
+        </div>
+    </div>
+    <!-- ====== Các hoạt động nổi bật End ====== -->
+
+    <!-- ====== Footer Start ====== -->
+    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+        <div class="shape shape-1">
+            <img src="assets/images/footer/shape-1.svg" alt="shape" />
+        </div>
+        <div class="shape shape-2">
+            <img src="assets/images/footer/shape-2.svg" alt="shape" />
+        </div>
+        <div class="shape shape-3">
+            <img src="assets/images/footer/shape-3.svg" alt="shape" />
+        </div>
+        <div class="ud-footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="ud-widget">
+                            <a href="index.html" class="ud-footer-logo">
+                                <img src="assets/images/logo/logo-5.png" alt="logo" />
+                            </a>
+                            <p class="ud-widget-desc">
+                                Khám phá Việt Nam qua những hành trình độc đáo, được thiết kế riêng cho bạn.
+                            </p>
+                            <ul class="ud-widget-socials">
+                                <li>
+                                    <a href="https://twitter.com/MusharofChy">
+                                        <i class="lni lni-facebook-filled"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/MusharofChy">
+                                        <i class="lni lni-twitter-filled"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/MusharofChy">
+                                        <i class="lni lni-instagram-filled"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/MusharofChy">
+                                        <i class="lni lni-linkedin-original"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                        <div class="ud-widget">
+                            <h5 class="ud-widget-title">Về Chúng Tôi</h5>
+                            <ul class="ud-widget-links">
+                                <li>
+                                    <a href="javascript:void(0)">Trang Chủ</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Giới Thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Chính Sách Hoàn Tiền</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                        <div class="ud-widget">
+                            <h5 class="ud-widget-title">Dịch Vụ Của Chúng Tôi</h5>
+                            <ul class="ud-widget-links">
+                                <li>
+                                    <a href="javascript:void(0)">Tour Du Lịch Trọn Gói</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Tour Cá Nhân Hóa</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Tư Vấn Lộ Trình Du Lịch</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                        <div class="ud-widget">
+                            <h5 class="ud-widget-title">Điểm Đến Nổi Bật</h5>
+                            <ul class="ud-widget-links">
+                                <li>
+                                    <a href="https://lineicons.com/" rel="nofollow noopner" target="_blank">Vịnh Hạ Long
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ecommercehtml.com/" rel="nofollow noopner" target="_blank">Phố Cổ
+                                        Hội An</a>
+                                </li>
+                                <li>
+                                    <a href="https://ayroui.com/" rel="nofollow noopner" target="_blank">Đà Lạt Mộng
+                                        Mơ</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="ud-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+
+                    </div>
+                    <div class="col-md-4">
+                        <p class="ud-footer-bottom-right">
+                            Designed and Developed by doannt2004
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== Footer End ====== -->
+
+    <!-- ====== Back To Top Start ====== -->
+    <a href="javascript:void(0)" class="back-to-top">
+        <i class="lni lni-chevron-up"> </i>
+    </a>
+    <!-- ====== Back To Top End ====== -->
+
+    <!-- ====== All Javascript Files ====== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Ẩn nút đăng nhập/đăng ký nếu đã đăng nhập
+
+
+        // Lấy id từ URL, fetch data.json và render description
+        function getQueryParam(name) {
+            const url = new URL(window.location.href);
+            return url.searchParams.get(name);
+        }
+        const tourId = parseInt(getQueryParam('id'), 10);
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                const tour = data.tours[tourId];
+                if (tour) {
+                    // Đặt title động theo tour
+                    document.title = tour.title || "Chi tiết Tour";
+                    // Render mô tả
+                    if (document.getElementById('tour-description')) {
+                        document.getElementById('tour-description').innerHTML = `
+                            <h4 class="text-center mb-3">${tour.title}</h4>
+                            <p>${tour.sub_description || ''}</p>
+                        `;
+                    }
+                    // Render ảnh
+                    if (document.getElementById('main-image')) {
+                        document.getElementById('main-image').src = tour.main_image || '';
+                    }
+                    if (document.getElementById('sub-image-1')) {
+                        document.getElementById('sub-image-1').src = tour.sub_image_1 || '';
+                    }
+                    if (document.getElementById('sub-image-2')) {
+                        document.getElementById('sub-image-2').src = tour.sub_image_2 || '';
+                    }
+                    // Lấy giá và cập nhật hiển thị
+                    if (tour.price) {
+                        // Chuyển giá từ chuỗi '₫1800000' sang số
+                        pricePerAdult = parseInt(tour.price.replace(/[^\d]/g, ''), 10);
+                        updatePriceDisplay();
+                    }
+                }
+            });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        // Biến toàn cục để lưu ngày được chọn
+        let selectedDate = null;
+        // Biến lưu trạng thái loại dịch vụ
+        let selectedServiceType = 'Thường'; // 'Thường' hoặc 'Cao cấp'
+        let pricePerAdult = 0;
+
+        // Hàm cập nhật giá hiển thị
+        function updatePriceDisplay() {
+            const quantityInput = document.querySelector('.quantity-input-card-1');
+            const priceValue = document.getElementById('price-value');
+            let qty = 1;
+            if (quantityInput) {
+                qty = parseInt(quantityInput.value, 10);
+                if (isNaN(qty) || qty < 1) qty = 1;
+            }
+            let price = pricePerAdult;
+            if (selectedServiceType === 'Cao cấp') {
+                price = Math.round(pricePerAdult * 2.5);
+            }
+            if (priceValue) {
+                priceValue.textContent = (price * qty).toLocaleString('vi-VN') + ' VND';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const serviceButtons = document.querySelectorAll('.option-btn-card-1');
+            serviceButtons.forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    serviceButtons.forEach(b => b.classList.remove('btn-book-now', 'active'));
+                    this.classList.add('btn-book-now', 'active');
+                    selectedServiceType = this.textContent.trim();
+                    updatePriceDisplay(); // Cập nhật giá khi đổi loại dịch vụ
+                });
+            });
+        });
+
+        // Khởi tạo flatpickr cho trường ngày
+        flatpickr(".date-picker-card-1", {
+            dateFormat: "d/m/Y", // Định dạng ngày: ngày/tháng/năm
+            minDate: "today", // Chỉ cho phép chọn ngày từ hôm nay trở đi
+            onChange: function (selectedDates, dateStr, instance) {
+                if (selectedDates.length > 0) {
+                    selectedDate = dateStr; // Lưu ngày được chọn vào biến
+                    console.log("Ngày được chọn:", selectedDate);
+                }
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Xử lý cập nhật giá khi thay đổi số lượng
+            const quantityInput = document.querySelector('.quantity-input-card-1');
+            if (quantityInput) {
+                quantityInput.addEventListener('input', function () {
+                    updatePriceDisplay();
+                });
+            }
+        });
+
+        function addToCart() {
+            alert("Thêm vào giỏ hàng");
+        }
+
+        function showModal(message, confirmCallback, cancelCallback) {
+            const oldModal = document.getElementById('custom-modal');
+            if (oldModal) oldModal.remove();
+            const modal = document.createElement('div');
+            modal.id = 'custom-modal';
+            modal.style.position = 'fixed';
+            modal.style.top = '0';
+            modal.style.left = '0';
+            modal.style.width = '100vw';
+            modal.style.height = '100vh';
+            modal.style.background = 'rgba(0,0,0,0.35)';
+            modal.style.display = 'flex';
+            modal.style.alignItems = 'center';
+            modal.style.justifyContent = 'center';
+            modal.style.zIndex = '9999';
+            modal.innerHTML = `
+    <div style="background:#fff;padding:40px 32px 32px 32px;border-radius:18px;min-width:340px;max-width:95vw;text-align:center;box-shadow:0 8px 40px rgba(0,0,0,0.18);position:relative;">
+      <div style="margin-bottom:18px;">
+        <svg width="48" height="48" fill="none" viewBox="0 0 48 48" style="margin-bottom:8px;"><circle cx="24" cy="24" r="24" fill="#f0f4ff"/><path d="M24 14v12" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="32" r="2" fill="#2563eb"/></svg>
+      </div>
+      <div style="margin-bottom:24px;font-size:20px;font-weight:600;color:#222;line-height:1.4;">${message}</div>
+      <div id="modal-btns" style="display:flex;justify-content:center;gap:16px;"></div>
+      <button id="modal-close-btn" style="position:absolute;top:12px;right:16px;background:none;border:none;font-size:22px;color:#888;cursor:pointer;">&times;</button>
+    </div>
+  `;
+            document.body.appendChild(modal);
+            // Đóng modal khi bấm ra ngoài hoặc nút X
+            modal.onclick = function (e) { if (e.target === modal) modal.remove(); };
+            modal.querySelector('#modal-close-btn').onclick = function () { modal.remove(); };
+            return modal;
+        }
+
+        function bookNow() {
+            if (localStorage.getItem('isLoggedIn') !== 'true') {
+                // Hiện modal yêu cầu đăng nhập
+                const modal = showModal('Bạn cần đăng nhập để đặt tour!');
+                const btns = modal.querySelector('#modal-btns');
+                btns.innerHTML = `<button class="btn btn-primary" id="login-btn-modal">Đăng nhập</button>`;
+                btns.querySelector('#login-btn-modal').onclick = function () {
+                    window.location.href = 'login.html';
+                };
+                return;
+            }
+            // Nếu đã đăng nhập, xác nhận đặt tour
+            const quantityInput = document.querySelector('.quantity-input-card-1');
+            const qty = quantityInput ? parseInt(quantityInput.value, 10) || 1 : 1;
+            // Lấy loại dịch vụ từ nút đang active (không dùng window.selectedServiceType)
+            let serviceType = 'Thường';
+            const activeBtn = document.querySelector('.option-btn-card-1.active');
+            if (activeBtn) serviceType = activeBtn.textContent.trim();
+            // Lấy giá gốc từ pricePerAdult (không dùng window.pricePerAdult)
+            let price = typeof pricePerAdult === 'number' ? pricePerAdult : 0;
+            // Lấy ngày đã chọn đúng từ input
+            const date = document.querySelector('.date-picker-card-1')?.value || null;
+            if (!date) {
+                const modal = showModal('<span style="color:#e11d48;font-weight:600;">Vui lòng chọn ngày tham quan trước khi đặt tour!</span>');
+                const btns = modal.querySelector('#modal-btns');
+                btns.innerHTML = `<button class=\"btn btn-primary" id=\"close-modal-btn\">Đóng</button>`;
+                btns.querySelector('#close-modal-btn').onclick = function () { modal.remove(); };
+                return;
+            }
+            // Giá luôn lấy từ data.json * số lượng, chỉ nhân 2.5 nếu là 'Cao cấp'
+            if (serviceType === 'Cao cấp') price = Math.round(price * 2.5);
+            const totalPrice = price * qty;
+            const modal = showModal(
+                `<div style='font-size:26px;font-weight:700;color:#2563eb;margin-bottom:18px;text-align:center;'>Xác nhận đặt Tour</div>\
+    <div style='display:flex;justify-content:flex-start;gap:32px;margin-bottom:10px;'>\
+      <div style='text-align:left;font-size:17px;line-height:2;min-width:120px;'>\
+        <div>Loại dịch vụ:</div>\
+        <div>Số người:</div>\
+        <div>Ngày:</div>\
+        <div>Tổng tiền:</div>\
+      </div>\
+      <div style='text-align:left;font-size:17px;line-height:2;font-weight:600;'>\
+        <div>${serviceType}</div>\
+        <div>${qty}</div>\
+        <div>${date}</div>\
+        <div style='color:#e11d48;'>${totalPrice.toLocaleString('vi-VN')} VND</div>\
+      </div>\
+    </div>`
+            );
+            const btns = modal.querySelector('#modal-btns');
+            btns.innerHTML = `<button class=\"btn btn-primary me-2" id=\"confirm-btn-modal\">Xác nhận</button><button class=\"btn btn-outline-secondary" id=\"cancel-btn-modal\">Hủy</button>`;
+            btns.querySelector('#confirm-btn-modal').onclick = function () {
+                // Lưu thông tin đặt tour vào localStorage
+                const booking = {
+                    price: totalPrice,
+                    serviceType,
+                    quantity: qty,
+                    date: date,
+                    time: Date.now()
+                };
+                let bookings = [];
+                try { bookings = JSON.parse(localStorage.getItem('bookings')) || []; } catch (e) { }
+                bookings.push(booking);
+                localStorage.setItem('bookings', JSON.stringify(bookings));
+                modal.querySelector('div').innerHTML = '<b>Đặt tour thành công!</b>';
+                setTimeout(() => modal.remove(), 1200);
+            };
+            btns.querySelector('#cancel-btn-modal').onclick = function () { modal.remove(); };
+        }
+
+        function clearAll() {
+            selectedDate = null; // Xóa ngày được chọn
+            document.querySelector(".date-picker-card-1").value = ""; // Xóa giá trị trong input
+            alert("Xóa tất cả");
+        }
+
+        // Render phần "Về dịch vụ này" và 3 ảnh (main_image, sub_image_1, sub_image_2) từ data.json
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                const tourId = parseInt(new URL(window.location.href).searchParams.get('id'), 10);
+                const tour = data.tours[tourId];
+                if (tour) {
+                    if (document.getElementById('service-description')) {
+                        document.getElementById('service-description').innerHTML = tour.service_description || tour.description || '';
+                    }
+                    if (tour.main_image && document.getElementById('service-img-main')) {
+                        document.getElementById('service-img-main').src = tour.main_image;
+                    }
+                    if (tour.sub_image_1 && document.getElementById('service-img-1')) {
+                        document.getElementById('service-img-1').src = tour.sub_image_1;
+                    }
+                    if (tour.sub_image_2 && document.getElementById('service-img-2')) {
+                        document.getElementById('service-img-2').src = tour.sub_image_2;
+                    }
+                }
+            });
+    </script>
+    <!-- ĐÃ XOÁ PHẦN 'Các hoạt động nổi bật' DƯ THỪA Ở ĐÂY -->
+    <script>
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                // Lấy 4 tour có rating cao nhất
+                const topTours = [...data.tours]
+                    .sort((a, b) => b.rating - a.rating)
+                    .slice(0, 4);
+                const row = document.getElementById('top-activities-row');
+                if (row) {
+                    row.innerHTML = topTours.map((tour, idx) => `
+  <div class="col-md-3 mb-4">
+    <div class="card h-100 shadow-sm top-activity-card" style="border-radius:18px;overflow:hidden;cursor:pointer;" data-tour-id="${data.tours.indexOf(tour)}">
+      <img src="${tour.main_image || ''}" class="card-img-top" alt="${tour.title}" style="height:180px;object-fit:cover;">
+      <div class="card-body p-3">
+        <div class="text-muted mb-1" style="font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+          ${tour.title.split(' ')[0] || ''} • ${tour.title.split(' ').slice(-2).join(' ')}
+        </div>
+        <div class="fw-bold mb-1" style="font-size:1.05rem;min-height:48px;">${tour.title}</div>
+        <div class="mb-2" style="font-size:13px;color:#888;">Đặt trước cho ngày mai</div>
+        <div class="mb-2" style="font-size:15px;">
+          <span style="color:#f59e42;font-weight:600;">★ ${tour.rating}</span>
+          <span style="color:#888;"> (${tour.reviews?.toLocaleString('en-US') || 0})</span>
+        </div>
+        <div class="fw-bold" style="font-size:1.1rem;">Từ ${tour.price.replace('₫', '').replace('VND', '').trim()} VND</div>
+      </div>
+    </div>
+  </div>
+`).join('');
+                    // Thêm sự kiện click cho từng card
+                    row.querySelectorAll('.top-activity-card').forEach(card => {
+                        card.addEventListener('click', function () {
+                            const id = this.getAttribute('data-tour-id');
+                            if (id !== null) {
+                                window.location.href = `card-1.html?id=${id}`;
+                            }
+                        });
+                    });
+                }
+            });
+    </script>
+</body>
+
+</html>

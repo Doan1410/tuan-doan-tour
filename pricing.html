@@ -1,0 +1,511 @@
+<!-- =========
+
+	Template Name: Play
+	Author: UIdeck
+	Author URI: https://uideck.com/
+	Support: https://uideck.com/support/
+	Version: 1.1
+
+========== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đặt Tour
+  </title>
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="assets/images/logo/logo-8.png" type="image/png" />
+
+  <!-- ===== All CSS files ===== -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/lineicons.css" />
+  <link rel="stylesheet" href="assets/css/ud-styles.css" />
+</head>
+
+<body>
+  <!-- ====== Header Start ====== -->
+  <header class="ud-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/logo/logo-5.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler">
+              <span class="toggler-icon"> </span>
+              <span class="toggler-icon"> </span>
+              <span class="toggler-icon"> </span>
+            </button>
+
+            <div class="navbar-collapse">
+              <ul id="nav" class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="ud-menu-scroll" href="index.html">Trang chủ </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="ud-menu-scroll" href="#about">Thông tin</a>
+                </li>
+                <li class="nav-item">
+                  <a class="ud-menu-scroll" href="pricing.html">Giá Tour</a>
+                </li>
+                <li class="nav-item">
+                  <a class="ud-menu-scroll" href="#team">Hướng dẫn viên</a>
+                </li>
+                <li class="nav-item">
+                  <a class="ud-menu-scroll" href="#contact">Liên hệ</a>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="javascript:void(0)"> Pages </a>
+                  <ul class="ud-submenu">
+                    <li class="ud-submenu-item">
+                      <a href="about.html" class="ud-submenu-link">
+                        About Page
+                      </a>
+                    </li>
+                    <li class="ud-submenu-item">
+                      <a href="pricing.html" class="ud-submenu-link">
+                        Pricing Page
+                      </a>
+                    </li>
+                    <li class="ud-submenu-item">
+                      <a href="contact.html" class="ud-submenu-link">
+                        Contact Page
+                      </a>
+                    </li>
+                    <li class="ud-submenu-item">
+                      <a href="blog.html" class="ud-submenu-link">
+                        Blog Grid Page
+                      </a>
+                    </li>
+                    <li class="ud-submenu-item">
+                      <a href="blog-details.html" class="ud-submenu-link">
+                        Blog Details Page
+                      </a>
+                    </li>
+                    <li class="ud-submenu-item">
+                      <a href="login.html" class="ud-submenu-link">
+                        Sign In Page
+                      </a>
+                    </li>
+                    <li class="ud-submenu-item">
+                      <a href="404.html" class="ud-submenu-link">404 Page</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="navbar-btn d-none d-sm-inline-block">
+              <a href="#" class="ud-main-btn ud-login-btn js-logout-btn" style="display:none;">Đăng xuất</a>
+              <a href="login.html" class="ud-main-btn ud-login-btn js-auth-btn">
+                Đăng nhập
+              </a>
+              <a href="signup.html" class="ud-main-btn ud-login-btn js-auth-btn">
+                Đăng kí
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ====== Header End ====== -->
+
+  <!-- ====== Banner Start ====== -->
+  <!-- <section class="ud-page-banner>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="ud-banner-content">
+            <h1>Pricing Page</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- ====== Banner End ====== -->
+
+  <!-- ====== Pricing Start ====== -->
+  <section id="pricing-1" class="ud-pricing-1">
+    <!-- <div class="pricing-1-center>
+      <div class="pricing-1>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title-pricing-1 mx-auto text-center">
+              <input type="text" placeholder="Ngày khởi hành" class="input-field">
+              <input type="text" placeholder="Điểm đến" class="input-field">
+              <select class="input-field">
+                <option value="">Mức giá</option>
+               
+              </select>
+              <button class="search-button">Tìm kiếm</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
+  <!-- ====== Pricing End ====== -->
+
+  <!-- ====== FAQ Start ====== -->
+  <!-- ====== FAQ Start ====== -->
+  <section id="faq-pricing" class="ud-faq-pricing py-5">
+    <div class="container-pricing">
+      <!-- Phần tìm kiếm (luôn hiển thị giống sau khi bấm tìm kiếm) -->
+      <div class="ud-section-title-pricing-1 mx-auto text-center mb-5">
+        <form class="d-flex flex-wrap gap-3 justify-content-center">
+
+          <div class="input-group" style="max-width: 200px;">
+            <span class="input-group-text"><i class="lni lni-map-marker"></i></span>
+            <input type="text" class="form-control" placeholder="Điểm đến">
+          </div>
+          <div class="input-group" style="max-width: 200px;">
+            <span class="input-group-text"><i class="lni lni-wallet"></i></span>
+            <select class="form-select">
+              <option value="">Mức giá</option>
+              <option value="low">Dưới 500,000 VNĐ</option>
+              <option value="medium">500,000 - 1,000,000 VNĐ</option>
+              <option value="high">Trên 1,000,000 VNĐ</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary search-button">Tìm kiếm</button>
+        </form>
+      </div>
+
+      <!-- Bộ lọc và sắp xếp (luôn hiển thị) -->
+      <div class="filter-sort-container-flex mb-4">
+        <div class="filter-sort-container d-flex justify-content-between align-items-center flex-wrap gap-3">
+          <div class="result-info">
+            <span> <strong></strong></span>
+          </div>
+          <div class="sort-option d-flex align-items-center gap-2">
+            <span>Sắp xếp theo:</span>
+            <select class="form-select sort-select" style="width: 200px;">
+              <option value="recommended">Nên đặt</option>
+              <option value="price-asc">Giá tăng dần</option>
+              <option value="price-desc">Giá giảm dần</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Danh sách tour (luôn hiển thị) -->
+      <div class="container-pricing">
+        <div id="tour-list" class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Tour cards sẽ được render tự động bằng JS -->
+        </div>
+      </div>
+
+      <!-- Phân trang (luôn hiển thị) -->
+      <div class="container-pricing mt-5">
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!-- ====== FAQ End ====== -->
+
+  <!-- ====== Footer Start ====== -->
+  <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+    <div class="shape shape-1">
+      <img src="assets/images/footer/shape-1.svg" alt="shape" />
+    </div>
+    <div class="shape shape-2">
+      <img src="assets/images/footer/shape-2.svg" alt="shape" />
+    </div>
+    <div class="shape shape-3">
+      <img src="assets/images/footer/shape-3.svg" alt="shape" />
+    </div>
+    <div class="ud-footer-widgets">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="ud-widget">
+              <a href="index.html" class="ud-footer-logo">
+                <img src="assets/images/logo/logo-5.png" alt="logo" />
+              </a>
+              <p class="ud-widget-desc">
+                Khám phá Việt Nam qua những hành trình độc đáo, được thiết kế riêng cho bạn.
+              </p>
+              <ul class="ud-widget-socials">
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-facebook-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-twitter-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-instagram-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-linkedin-original"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+            <div class="ud-widget">
+              <h5 class="ud-widget-title">Về Chúng Tôi</h5>
+              <ul class="ud-widget-links">
+                <li>
+                  <a href="javascript:void(0)">Trang Chủ</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Giới Thiệu</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Chính Sách Hoàn Tiền</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+            <div class="ud-widget">
+              <h5 class="ud-widget-title">Dịch Vụ Của Chúng Tôi</h5>
+              <ul class="ud-widget-links">
+                <li>
+                  <a href="javascript:void(0)">Tour Du Lịch Trọn Gói</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Tour Cá Nhân Hóa</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Tư Vấn Lộ Trình Du Lịch</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+            <div class="ud-widget">
+              <h5 class="ud-widget-title">Điểm Đến Nổi Bật</h5>
+              <ul class="ud-widget-links">
+                <li>
+                  <a href="https://lineicons.com/" rel="nofollow noopner" target="_blank">Vịnh Hạ Long
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ecommercehtml.com/" rel="nofollow noopner" target="_blank">Phố Cổ Hội An</a>
+                </li>
+                <li>
+                  <a href="https://ayroui.com/" rel="nofollow noopner" target="_blank">Đà Lạt Mộng Mơ</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="ud-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+
+          </div>
+          <div class="col-md-4">
+            <p class="ud-footer-bottom-right">
+              Designed and Developed by doannt2004
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ====== Footer End ====== -->
+
+  <!-- ====== Back To Top Start ====== -->
+  <a href="javascript:void(0)" class="back-to-top">
+    <i class="lni lni-chevron-up"> </i>
+  </a>
+  <!-- ====== Back To Top End ====== -->
+
+  <!-- ====== All Javascript Files ====== -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <script>
+
+    // Phân trang JS cho tour-list
+    const TOURS_PER_PAGE = 9;
+    let currentPage = 1;
+    let tours = [];
+
+    // Tìm kiếm tour khi nhập thông tin và bấm nút tìm kiếm
+    const searchForm = document.querySelector('.ud-section-title-pricing-1 form');
+    let filteredTours = [];
+    function filterTours() {
+      // Lấy giá trị từ input "Điểm đến" (title)
+      const titleInput = searchForm.querySelector('input[placeholder="Điểm đến"]').value.trim().toLowerCase();
+      const priceInput = searchForm.querySelector('select').value;
+      filteredTours = tours.filter(tour => {
+        let match = true;
+        // Chỉ tìm kiếm theo title
+        if (titleInput) {
+          const title = (tour.title || '').toLowerCase();
+          match = match && title.includes(titleInput);
+        }
+        if (priceInput) {
+          const price = parseInt(tour.price.replace(/[^\d]/g, ''));
+          if (priceInput === 'low') match = match && price < 500000;
+          else if (priceInput === 'medium') match = match && price >= 500000 && price <= 1000000;
+          else if (priceInput === 'high') match = match && price > 1000000;
+        }
+        return match;
+      });
+    }
+    searchForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      filterTours();
+      currentPage = 1;
+      renderTours(currentPage, filteredTours);
+      renderPagination(filteredTours.length, currentPage);
+      // Cập nhật số kết quả
+      const resultInfo = document.querySelector('.result-info span strong');
+      if (resultInfo) resultInfo.textContent = filteredTours.length + ' kết quả';
+    });
+
+    // SẮP XẾP TOUR
+    function sortTours(arr) {
+      const sortValue = document.querySelector('.sort-select').value;
+      let sorted = [...arr];
+      if (sortValue === 'recommended') {
+        sorted.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+      } else if (sortValue === 'price-asc') {
+        sorted.sort((a, b) => {
+          const pa = parseInt((a.price || '').replace(/[^\d]/g, '')) || 0;
+          const pb = parseInt((b.price || '').replace(/[^\d]/g, '')) || 0;
+          return pa - pb;
+        });
+      } else if (sortValue === 'price-desc') {
+        sorted.sort((a, b) => {
+          const pa = parseInt((a.price || '').replace(/[^\d]/g, '')) || 0;
+          const pb = parseInt((b.price || '').replace(/[^\d]/g, '')) || 0;
+          return pb - pa;
+        });
+      }
+      return sorted;
+    }
+
+    function renderTours(page, arr) {
+      const tourList = document.getElementById('tour-list');
+      const data = arr || tours;
+      const sortedData = sortTours(data);
+      const start = (page - 1) * TOURS_PER_PAGE;
+      const end = start + TOURS_PER_PAGE;
+      const pageTours = sortedData.slice(start, end);
+      tourList.innerHTML = pageTours.map(tour => `
+        <div class="col">
+          <div class="card h-100 shadow-sm rounded tour-card">
+            <img src="${tour.main_image || 'assets/images/card/card-1.jpg'}" class="card-img-top mb-2" alt="${tour.title}">
+            <div class="d-flex gap-2 mb-2">
+              <img src="${tour.sub_image_1 || ''}" class="img-card-2" style="width:48px;height:48px;object-fit:cover;border-radius:6px;" alt="sub1">
+              <img src="${tour.sub_image_2 || ''}" class="img-card-3" style="width:48px;height:48px;object-fit:cover;border-radius:6px;" alt="sub2">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">${tour.title}</h5>
+              <p class="card-text text-muted">${tour.description}</p>
+              <p class="card-price"><strong>${tour.price}</strong></p>
+              <p class="card-rating">Đánh giá: ${tour.rating} (${tour.reviews} lượt)</p>
+              <a href="${tour.details_link}" class="btn btn-outline-primary btn-sm" target="_blank">Xem thêm</a>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderPagination(total, page) {
+      const totalPages = Math.ceil(total / TOURS_PER_PAGE);
+      const pagination = document.querySelector('.pagination');
+      if (!pagination) return;
+      let html = '';
+      html += `<li class="page-item${page === 1 ? ' disabled' : ''}"><a class="page-link" href="#" data-page="prev" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>`;
+      for (let i = 1; i <= totalPages; i++) {
+        html += `<li class="page-item${i === page ? ' active' : ''}"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
+      }
+      html += `<li class="page-item${page === totalPages ? ' disabled' : ''}"><a class="page-link" href="#" data-page="next" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>`;
+      pagination.innerHTML = html;
+    }
+
+    function onPageClick(e) {
+      // Luôn lấy phần tử .page-link gần nhất (dù click vào <span> hay <a>)
+      const pageLink = e.target.closest('.page-link');
+      if (!pageLink) return;
+      e.preventDefault();
+      // Chỉ kiểm tra input "Điểm đến" và select mức giá
+      const hasFilter =
+        (searchForm.querySelector('input[placeholder="Điểm đến"]') && searchForm.querySelector('input[placeholder="Điểm đến"]').value) ||
+        (searchForm.querySelector('select') && searchForm.querySelector('select').value);
+      const data = (filteredTours.length > 0 || hasFilter) ? filteredTours : tours;
+      const totalPages = Math.ceil(data.length / TOURS_PER_PAGE);
+      let page = currentPage;
+      const pageAttr = pageLink.getAttribute('data-page');
+      if (pageAttr === 'prev' && page > 1) page--;
+      else if (pageAttr === 'next' && page < totalPages) page++;
+      else if (!isNaN(Number(pageAttr))) page = Number(pageAttr);
+      if (page !== currentPage) {
+        currentPage = page;
+        renderTours(currentPage, data);
+        renderPagination(data.length, currentPage);
+      }
+    }
+
+    fetch('assets/data/tours.json')
+      .then(res => res.json())
+      .then(data => {
+        tours = data.tours;
+        filteredTours = [];
+        renderTours(currentPage);
+        renderPagination(tours.length, currentPage);
+      });
+    document.addEventListener('click', function (e) {
+      if (e.target.closest('.pagination')) onPageClick(e);
+    });
+    document.querySelector('.sort-select').addEventListener('change', function () {
+      // Nếu có filteredTours (đã lọc), sắp xếp filteredTours, ngược lại sắp xếp tours gốc
+      const data = (filteredTours.length > 0) ? filteredTours : tours;
+      renderTours(currentPage, data);
+      renderPagination(data.length, currentPage);
+    });
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
